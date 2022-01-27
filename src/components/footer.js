@@ -1,6 +1,6 @@
 import React from "react";
-// import " ./footer.css"
-import "../components/homeLayout.css"
+ import "./footer.css";
+
  const footer=()=>{
      return(
         <div className="footer">
