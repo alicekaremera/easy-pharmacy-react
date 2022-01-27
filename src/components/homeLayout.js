@@ -8,6 +8,9 @@ import "./homeLayout.css";
 
 const HomeLayout = ({ children }) => {
   return (
+    <div className="home-container" style={{}}>
+        <Header />  
+      <div style={{ minHeight: "100vh" }}>
     <div className="home-container" >
         <div className="home-container1">
             
