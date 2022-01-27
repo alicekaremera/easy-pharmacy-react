@@ -8,8 +8,8 @@ import Footer from "./footer";
 const HomeLayout = ({ children }) => {
   return (
     <div className="home-container" style={{}}>
-      {/* <Header /> */}
-      <div style={{ minHeight: "100vh",background:"grey" }}>
+        <Header />  
+      <div style={{ minHeight: "100vh" }}>
         {children}
       </div>
 
