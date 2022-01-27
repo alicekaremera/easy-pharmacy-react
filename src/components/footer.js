@@ -1,12 +1,13 @@
 import React from "react";
 // import " ./footer.css"
+import "../components/homeLayout.css"
  const footer=()=>{
      return(
         <div className="footer">
-            <div className="footer1">
-                
+            
+                <p> copyright &copy; 2022 MASTERMINDs </p>  
 
-                </div> 
+    
 
         </div>
      );

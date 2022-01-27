@@ -27,17 +27,39 @@ padding-top: 230px;
 color: white;
 }
 
-.home-container-child{
-    /* background: yellow; */
-}
+
 .home-container button{
     height: 13vh;
         width: 300px;
         border-radius: 15px;
         text-align: bold;
-        margin-left: 920px;
+        margin-left: 800px;
     color: white;
     background-color: rgb(66,190,250);
-    margin-top: 200px;
+    margin-top: 140px;
 
 }
+/* footer */
+
+.footer{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(64, 190,250);
+
+
+}
+
+p{
+     text-align: center;
+     text-decoration: none;
+    font-size: medium;
+    padding-top: 3%;
+}
+/* sign up  */
+.background-form{
+     height:300px;
+     width: 100%;
+     background: chartreuse;
+}
+   
