@@ -2,6 +2,9 @@ import React from "react";
 import HomeLayout from "../components/homeLayout";
 import "../components/homeLayout.css";
 
+
+
+
 const Home=()=>{
 
     return(
