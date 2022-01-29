@@ -1,7 +1,7 @@
 import React from "react";
 import "../components/homeLayout.css";
  
- const signUp=()=>{
+ const SignUp=()=>{
      return(
          <div className="background-form">
         
@@ -10,4 +10,4 @@ import "../components/homeLayout.css";
 
      );
  }
- export default signUp;
+ export default SignUp;

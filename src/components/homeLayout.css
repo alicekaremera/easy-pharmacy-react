@@ -3,8 +3,8 @@
     width:100%;
     /* min-height:97vh; */
     background-image: url('../assets/HomePicture.jpg') ;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: cover; 
+    background-attachment: fixed; 
 }
 .home-container1{
     width:100%;
