@@ -2,6 +2,8 @@ import React from "react";
 import Home from "../views/home";
 
 import Pharmacy from '../views/pharmacy';
+import Drug from '../views/drug';
+import Order from '../views/order';
 
 import SignUp from "../views/signup";
 
@@ -15,6 +17,13 @@ import AboutUs from "../views/aboutUs";
         <Routes>
             <Route exact path ='/' element={<Home/>}></Route>
             <Route element={<Pharmacy/>} path="/pharmacy">
+
+           </Route>
+           <Route element={<Drug/>} path="/drug">
+
+           </Route>
+
+           <Route element={<Order/>} path="/order">
 
            </Route>
             <Route exact path ='/signup' element={<SignUp/>}></Route >
