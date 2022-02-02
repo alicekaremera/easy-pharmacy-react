@@ -60,7 +60,7 @@ const Pharmacy=()=>{
 
                  <br/>
 
-                 <h3>KN 302 ST</h3>
+            <h3>KN 302 ST</h3>
 
                  
 
