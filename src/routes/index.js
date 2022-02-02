@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "../views/home";
 
+
 import Pharmacy from '../views/pharmacy';
 import Drug from '../views/drug';
 import Order from '../views/order';
@@ -26,6 +27,7 @@ import AboutUs from "../views/aboutUs";
            <Route element={<Order/>} path="/order">
 
            </Route>
+
             <Route exact path ='/signup' element={<SignUp/>}></Route >
             <Route exact path ='/about' element={<AboutUs/>}></Route>
         </Routes>

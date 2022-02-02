@@ -9,6 +9,7 @@ return (<div className="header">
             <a href="../">Home</a>
             <a href="../about">About us</a>
             <a href="/pharmacy">pharmacies</a>
+
             </div>
             <div className="sign-up">
                
