@@ -9,7 +9,7 @@ const HomeLayout = ({ children }) => {
     <div className="home-container" >
         <div className="home-container1">
         <Header />  
-         {children}
+        <div style={{minHeight:"70vh"}}> {children}</div>
         <Footer /> 
       </div>
     </div>

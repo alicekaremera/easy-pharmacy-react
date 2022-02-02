@@ -6,7 +6,7 @@ return (<div className="header">
 <img src={logo}/>
         <div className="navbar-right">
             <div className="home-bar">
-            <a href="../home">Home</a>
+            <a href="../">Home</a>
             <a href="../about">About us</a>
             <a href="/pharmacy">pharmacies</a>
 

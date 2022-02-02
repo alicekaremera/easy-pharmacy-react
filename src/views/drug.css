@@ -1,4 +1,4 @@
-.pharmacy-container{
+.drug-container{
     width: 100%;
     min-height: 60vh;
     background-color: rgb(242, 246, 248);
@@ -7,12 +7,12 @@
 
 }
 
-.pharmacy-container h1{
+.drug-container h1{
     color: rgb(66,190,250);
     margin: 30px
 } 
 
-.list{
+.list1{
 
     display:flex;
 
@@ -24,7 +24,7 @@
 
 }
 
-.listitem{
+.listitem1{
 
     flex-direction: column;
 
@@ -38,7 +38,7 @@
 
 }
 
-.ourpharmacy{
+.ourdrug{
 
     padding-top: 30px;
 
@@ -49,13 +49,12 @@
      -moz-box-shadow: 0 10px 6px -6px #777;
 
           box-shadow: 0 10px 6px -6px #777;
-          
 
  
 
 }
 
-.pharmacyname{
+.drugname{
 
     margin: 30px;
 
@@ -73,18 +72,19 @@
 
 
 
-.phone{
+.price{
 
-    margin-left: 540px;
+    margin-left: 397px;
 
     /* float: right; */
 
     
 
 }
-.read{
+.available{
+   
 
-    margin-right: 50px;
+    margin-right: 495px;
 
     float: right;
 
@@ -92,7 +92,28 @@
 
 }
 
-.ourpharmacy p{
+.action button{
+
+   
+    
+    
+    width: 130px;
+    background-color: rgb(66,190,250);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    
+
+}
+
+.ourdrug p{
 
     font-size:18px;
 
@@ -102,12 +123,10 @@
 
 }
 
-.ourpharmacy h3{
+.ourdrug h3{
 
     font-size:18px;
     color: rgba(5, 5, 5, 0.678);
-
-    font-weight: bold;
 
     padding:10px;
 
@@ -129,7 +148,7 @@
 
 } */
 
-.ourpharmacy h2{
+.ourdrug h2{
 
    color:rgb(66,190,250);
 

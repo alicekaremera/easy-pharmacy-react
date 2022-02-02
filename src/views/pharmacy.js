@@ -21,7 +21,7 @@ const Pharmacy=()=>{
 
             <div className="pharmacyname">
 
-            <h2>KIPHARMA Pharmacy</h2>
+            <a href="/drug" style={{ textDecoration: "none"}}> <h2>KIPHARMA Pharmacy</h2></a>
 
             <p>Address: Kigali, City market
 
