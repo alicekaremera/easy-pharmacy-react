@@ -1,0 +1,128 @@
+.pharmacy-container{
+    width: 100%;
+    min-height: 90vh;
+    /* background-color: rgb(66,190,250); */
+    background-size: cover ;
+    background-attachment: fixed;
+
+}
+
+.pharmacy-container h1{
+    color: rgb(66,190,250);
+    margin: 30px
+} 
+
+.list{
+
+    display:flex;
+
+    border-bottom: 1px solid rgb(78, 34, 9);
+
+    /* align-items: center; */
+
+ 
+
+}
+
+.listitem{
+
+    flex-direction: column;
+
+    padding: 30px;
+
+    color:black;
+
+    font-size:25px;
+
+ 
+
+}
+
+.ourpharmacy{
+
+    padding-top: 30px;
+
+    height: 260px;
+
+     -webkit-box-shadow: 0 10px 6px -6px #777; /* to have box shadow * */
+
+     -moz-box-shadow: 0 10px 6px -6px #777;
+
+          box-shadow: 0 10px 6px -6px #777;
+
+ 
+
+}
+
+.pharmacyname{
+
+    margin: 30px;
+
+    float: left;
+
+    width: 200px;
+
+    height: 220px;
+
+    border-radius: 5px;
+
+    padding-right: 10px;
+
+}
+
+
+
+.phone{
+
+    margin-left: 540px;
+
+    /* float: right; */
+
+    
+
+}
+.read{
+
+    margin-right: 50px;
+
+    float: right;
+
+    
+
+}
+
+.ourpharmacy p{
+
+    font-size:18px;
+
+    color: rgba(5, 5, 5, 0.678);
+
+    padding:10px;
+
+}
+
+/* .morebutton{
+
+    margin-left:280px;
+
+    color:rgb(78, 34, 9);
+
+    font-size:18px;
+
+    border: none;
+
+    border-bottom: 4px solid rgb(78, 34, 9);
+
+    background-color: white;
+
+} */
+
+.ourpharmacy h2{
+
+   color:rgb(66,190,250);
+
+   font-size:26px;
+
+   font-weight: bold;
+
+}
