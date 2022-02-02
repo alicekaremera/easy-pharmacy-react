@@ -7,8 +7,8 @@
     background-attachment: fixed; 
 }
 .home-container1{
-    width:100%;
-    height:100vh;
+    min-width:100%;
+    min-height:60vh;
     background: rgba(0, 22, 32, 0.637);
 }
 .home-container h3{
