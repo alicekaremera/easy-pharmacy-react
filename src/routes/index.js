@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "../views/home";
 
+
 import Pharmacy from '../views/pharmacy';
 
 import SignUp from "../views/signup";
@@ -17,6 +18,7 @@ import AboutUs from "../views/aboutUs";
             <Route element={<Pharmacy/>} path="/pharmacy">
 
            </Route>
+
             <Route exact path ='/signup' element={<SignUp/>}></Route >
             <Route exact path ='/about' element={<AboutUs/>}></Route>
         </Routes>
