@@ -8,7 +8,7 @@ return (<div className="header">
             <div className="home-bar">
             <a href="../home">Home</a>
             <a href="../about">About us</a>
-            <a href="#">pharmacies</a>
+            <a href="/pharmacy">pharmacies</a>
             </div>
             <div className="sign-up">
                

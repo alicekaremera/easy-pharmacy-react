@@ -1,9 +1,9 @@
 import React from "react";
-// import Homelayout from "../components/homelayout";
+import HomeLayout from "../components/homeLayout";
 import"./pharmacy.css";
 const Pharmacy=()=>{
     return(
-        // <Homelayout>
+        <HomeLayout>
     <div className="pharmacy-container">
         
      <h1>Pharmacies List</h1>
@@ -115,7 +115,7 @@ const Pharmacy=()=>{
         
     </div>
 
-        // </Homelayout>
+        </HomeLayout>
 
     );
 }
