@@ -56,22 +56,19 @@ const NormalLoginForm = () => {
 
                         <a className="login-form-forgot" href="">
                             Forgot password</a>
-                        <br /> <br />
-                        <Button type="primary" htmlType="submit" className="login-form-button"></Button>
-                        <br /> <br />
-                        Or <a href="" style={{color:"rgb(2, 2, 59)", textDecoration:"none"}}>register now!</a>
-                    </Form.Item>
 
-                    {/* <Form.Item>
-        <Button type="primary" htmlType="submit" className="login-form-button">
-          Log in
-        </Button>
-        Or <a href="">register now!</a>
-      </Form.Item> */}
+                            <br /> <br />
+
+                            Or <a href="" style={{color:"rgb(2, 2, 59)", textDecoration:"none"}}>register now!</a>
+                        <br /> 
+                        <Button type="primary" htmlType="submit" >Log In </Button>
+                        <br /> <br />
+                        
+                    </Form.Item>
                 </Form>
 
                 <div className="login-pic">
-                    <a>pic</a>
+                    
                 </div>
             </div>
         </HomeLayout>

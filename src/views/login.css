@@ -14,11 +14,14 @@
       margin-top: 230px;
       margin-right: 150px;
   }
-  .login-pg Button{
+  .login-pg button{
       background-color:rgb(255, 255, 255) ;
       width: 40%;
       height: 50px;
       color: black;
+      float: left;
+      margin-left: 100px;
+      
   }
   .login-pic{
       background-image: url('../assets/logo2.jpg');
