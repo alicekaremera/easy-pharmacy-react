@@ -7,13 +7,13 @@ return (<div className="header">
 <img src={logo}/>
         <div className="navbar-right">
             <div className="home-bar">
-            <a href="#">Home</a>
+            <a href="/home">Home</a>
             <a href="#">About us</a>
             <a href="#">pharmacies</a>
             </div>
             <div className="sign-up">
             
-         <a href="signup">Sign up</a>
+         <a href="/signup">Sign up</a>
             <a href="#">Login</a>
             <div className="search-div">
                     <p>search</p>
