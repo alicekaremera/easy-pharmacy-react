@@ -1,0 +1,38 @@
+.login-pg{
+    height: 100vh;
+    /* background: rgb(2,0,36); */
+    background: linear-gradient(to bottom, #260894d0, #16dbe2ef);
+}
+  .login-form {
+
+      float: right;
+      background: linear-gradient(to bottom, #260894d0, #16dbe2ef);
+      /* background-color: rgb(66,190,250); */
+      width: 25%;
+      height: 40vh;
+      text-align: center;
+      margin-top: 230px;
+      margin-right: 150px;
+  }
+  .login-pg button{
+      background-color:rgb(255, 255, 255) ;
+      width: 40%;
+      height: 50px;
+      color: black;
+      float: left;
+      margin-left: 100px;
+      
+  }
+  .login-pic{
+      background-image: url('../assets/logo2.jpg');
+      /* background-color: chartreuse; */
+      /* float: left; */
+      width: 50%;
+      height: 100vh;
+      background-size: cover;
+  }
+  .login-form-forgot{
+      text-decoration: none;
+      color: rgb(2, 2, 59);
+  }
+  

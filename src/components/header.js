@@ -8,12 +8,14 @@ return (<div className="header">
             <div className="home-bar">
             <a href="../">Home</a>
             <a href="../about">About us</a>
+            
             <a href="/pharmacy">pharmacies</a>
+
             </div>
             <div className="sign-up">
                
-         <a href="#">Sign up</a>
-            <a href="#">Login</a>
+         <a href="/signup">Sign up</a>
+            <a href="/login">Login</a>
             <div className="search-div">
                     <p>search</p>
                     </div>
