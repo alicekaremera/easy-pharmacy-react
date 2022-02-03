@@ -14,7 +14,7 @@ return (<div className="header">
             </div>
             <div className="sign-up">
                
-         <a href="#">Sign up</a>
+         <a href="/signup">Sign up</a>
             <a href="/login">Login</a>
             <div className="search-div">
                     <p>search</p>
