@@ -1,3 +1,4 @@
+
 .home-container{
     background: rgba(66, 190 , 250);
     width:100%;
@@ -21,16 +22,20 @@ padding-top: 230px;
     margin-left: 860px;
     text-align: bold;
     /* padding-left: 900px; */
-color: white;
+    color: white;
+    /* float: right; */
+    /* margin-right: 10px; */
 }
+
 .home-container button{
     height: 13vh;
-        width: 300px;
-        border-radius: 15px;
-        text-align: bold;
-        margin-left: 920px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: bold;
     color: white;
     background-color: rgb(66,190,250);
+    margin-left: 920px;
+    /* float: right; */
     margin-top: 100px;}
 
    

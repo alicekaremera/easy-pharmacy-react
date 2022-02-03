@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "../views/home";
+import NormalLoginForm from "../views/login";
 
 
 import Pharmacy from '../views/pharmacy';
@@ -16,6 +17,8 @@ import AboutUs from "../views/aboutUs";
 
     return(
         <Routes>
+            
+            <Route exact path ='/login' element={<NormalLoginForm />}></Route>
             <Route exact path ='/' element={<Home/>}></Route>
             <Route element={<Pharmacy/>} path="/pharmacy">
 
