@@ -1,21 +1,24 @@
-.drug-container{
+.pharmacy-container{
     width: 100%;
     min-height: 60vh;
     background-color: rgb(242, 246, 248);
     background-size: cover ;
     background-attachment: fixed;
+    /* margin: 80px; */
+    
 
 }
 
-.drug-container h1{
+.pharmacy-container h1{
     color: rgb(66,190,250);
-    margin: 30px
+    margin: 30px;
+    margin-bottom:0px;
 } 
 
-.list1{
+.list{
 
     display:flex;
-
+margin-top: 30px;
     border-bottom: 1px solid rgb(78, 34, 9);
     background: rgb(66,190,250);
 background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgba(2,106,218,1) 77%);
@@ -26,7 +29,7 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
 
 }
 
-.listitem1{
+.listitem{
 
     flex-direction: column;
 
@@ -40,9 +43,9 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
 
 }
 
-.ourdrug{
+.ourpharmacy{
 
-    padding-top: 30px;
+    /* padding-top: 30px; */
 
     min-height: 260px;
 
@@ -51,12 +54,14 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
      -moz-box-shadow: 0 10px 6px -6px #777;
 
           box-shadow: 0 10px 6px -6px #777;
+          
+          
 
  
 
 }
 
-.drugname{
+.pharmacyname{
 
     margin: 30px;
 
@@ -74,19 +79,18 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
 
 
 
-.price{
+.phone{
 
-    margin-left: 397px;
+    margin-left: 540px;
 
     /* float: right; */
 
     
 
 }
-.available{
-   
+.read{
 
-    margin-right: 495px;
+    margin-right: 50px;
 
     float: right;
 
@@ -94,30 +98,7 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
 
 }
 
-.action button{
-
-   
-    
-    
-    width: 130px;
-    /* background-color: rgb(66,190,250); */
-    background: rgb(66,190,250);
-background: linear-gradient(90deg, rgba(66,190,250,0.6895133053221288) 45%, rgba(2,106,218,1) 77%);
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-
-    
-
-}
-
-.ourdrug p{
+.ourpharmacy p{
 
     font-size:18px;
 
@@ -127,12 +108,15 @@ background: linear-gradient(90deg, rgba(66,190,250,0.6895133053221288) 45%, rgba
 
 }
 
-.ourdrug h3{
+.ourpharmacy h3{
 
     font-size:18px;
     color: rgba(5, 5, 5, 0.678);
 
+    font-weight: bold;
+
     padding:10px;
+    margin-bottom:0px;
 
 }
 
@@ -152,12 +136,13 @@ background: linear-gradient(90deg, rgba(66,190,250,0.6895133053221288) 45%, rgba
 
 } */
 
-.ourdrug h2{
+.ourpharmacy h2{
 
    color:rgb(66,190,250);
 
    font-size:26px;
 
    font-weight: bold;
+   margin-bottom:0px;
 
 }

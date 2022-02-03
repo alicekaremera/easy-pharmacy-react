@@ -1,11 +1,11 @@
 import React from "react";
- import "./signup.css";
+import "./signup.css";
 import HomeLayout from "../components/homeLayout";
- import 'antd/dist/antd.css'
-import { Form, Input, Button,Select,} from 'antd';
+import 'antd/dist/antd.css';
+import { Form, Input, Button,Select} from'antd';
 
 
-const Signup = () => {
+const Signup=()=> {
   
     const onFinish = (values) => {
       console.log('Success:', values);

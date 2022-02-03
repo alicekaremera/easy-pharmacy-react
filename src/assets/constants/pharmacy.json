@@ -1,0 +1,33 @@
+[
+    {
+      "name": " KIPHARMA Pharmacy",
+      "address": "Kigali, City market",
+      "street": "KN 302 ST",
+      "phone": "+250 788 788 788",
+      "detail":"Read more..."
+    },
+
+    {
+        "name": " Pharmacy La CONSEIL",
+        "address": "Kigali, City market",
+        "street": "KN 302 ST",
+        "phone": "+250 788 788 788",
+        "detail":"Read more..."
+      },
+
+      {
+        "name": " UBUMWE Pharmacy",
+        "address": "Kigali, City market",
+        "street": "KN 302 ST",
+        "phone": "+250 788 788 788",
+        "detail":"Read more..."
+      },
+
+      {
+        "name": " GIRIMPUHWE Pharmacy",
+        "address": "Kigali, City market",
+        "street": "KN 302 ST",
+        "phone": "+250 788 788 788",
+        "detail":"Read more..."
+      }
+]
