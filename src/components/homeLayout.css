@@ -1,7 +1,7 @@
 .home-container{
     background: rgba(66, 190 , 250);
     width:100%;
-    /* min-height:97vh; */
+     min-height:97vh; 
     background-image: url('../assets/HomePicture.jpg') ;
     background-size: cover;
     background-attachment: fixed;

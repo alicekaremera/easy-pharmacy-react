@@ -1,0 +1,88 @@
+.background-form{
+    height: 100%;
+    width: 100%;
+      
+     background: none;
+    background-size: cover;
+   
+    
+    
+
+    
+
+}
+.bg-photo{
+    background: url(../assets/logo.jpg);
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+    
+
+.bg-form{
+    height: 100%;
+    width: 50%;
+    background:none;
+
+}
+form{
+    margin-top: 3%;
+}
+
+
+ .hd-form{
+height: 100%;
+width: 70%;
+ background: linear-gradient(to bottom, #260894d0, #16dbe2ef); 
+margin-left: 5%
+;
+ }
+ .hd-name{
+     background:none;
+     height: 70px;
+     width: 310px;
+     margin-left: 15%;
+     margin-top: 2%;
+     
+ }
+ .form label{
+     color: white;
+
+ }
+
+
+
+ .hd-form {
+    font-size: x-large;
+    text-decoration: white;
+    padding-top: 10px;
+}
+ .hd-form label{
+    color: white;
+
+
+
+}
+.hd-form h1{
+    text-align: center;
+    font-size: large;
+    color: white;
+    padding-top: 10px;
+}
+.hd-form input{
+     height: 35px;
+     /* width: 25px; */
+     /* border-radius: 15px; */
+     margin-left: 2px;
+    
+}
+.hd-form button{
+    height: 40px;
+    width:100px;
+    background:rgb(14, 122, 223);
+}
+
+
+
+
+

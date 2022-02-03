@@ -12,8 +12,8 @@ return (<div className="header">
             <a href="#">pharmacies</a>
             </div>
             <div className="sign-up">
-               
-         <a href="#">Sign up</a>
+            
+         <a href="signup">Sign up</a>
             <a href="#">Login</a>
             <div className="search-div">
                     <p>search</p>
