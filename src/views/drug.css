@@ -1,0 +1,163 @@
+.drug-container{
+    width: 100%;
+    min-height: 60vh;
+    background-color: rgb(242, 246, 248);
+    background-size: cover ;
+    background-attachment: fixed;
+
+}
+
+.drug-container h1{
+    color: rgb(66,190,250);
+    margin: 30px
+} 
+
+.list1{
+
+    display:flex;
+
+    border-bottom: 1px solid rgb(78, 34, 9);
+    background: rgb(66,190,250);
+background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgba(2,106,218,1) 77%);
+
+    /* align-items: center; */
+
+ 
+
+}
+
+.listitem1{
+
+    flex-direction: column;
+
+    padding: 30px;
+
+    color:black;
+
+    font-size:25px;
+
+ 
+
+}
+
+.ourdrug{
+
+    padding-top: 30px;
+
+    min-height: 260px;
+
+     -webkit-box-shadow: 0 10px 6px -6px #777; /* to have box shadow * */
+
+     -moz-box-shadow: 0 10px 6px -6px #777;
+
+          box-shadow: 0 10px 6px -6px #777;
+
+ 
+
+}
+
+.drugname{
+
+    margin: 30px;
+
+    float: left;
+
+    width: 200px;
+
+    height: 220px;
+
+    border-radius: 5px;
+
+    padding-right: 10px;
+
+}
+
+
+
+.price{
+
+    margin-left: 397px;
+
+    /* float: right; */
+
+    
+
+}
+.available{
+   
+
+    margin-right: 495px;
+
+    float: right;
+
+    
+
+}
+
+.action button{
+
+   
+    
+    
+    width: 130px;
+    /* background-color: rgb(66,190,250); */
+    background: rgb(66,190,250);
+background: linear-gradient(90deg, rgba(66,190,250,0.6895133053221288) 45%, rgba(2,106,218,1) 77%);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    
+
+}
+
+.ourdrug p{
+
+    font-size:18px;
+
+    color: rgba(5, 5, 5, 0.678);
+
+    padding:10px;
+
+}
+
+.ourdrug h3{
+
+    font-size:18px;
+    color: rgba(5, 5, 5, 0.678);
+
+    padding:10px;
+
+}
+
+/* .morebutton{
+
+    margin-left:280px;
+
+    color:rgb(78, 34, 9);
+
+    font-size:18px;
+
+    border: none;
+
+    border-bottom: 4px solid rgb(78, 34, 9);
+
+    background-color: white;
+
+} */
+
+.ourdrug h2{
+
+   color:rgb(66,190,250);
+
+   font-size:26px;
+
+   font-weight: bold;
+
+}
