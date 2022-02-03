@@ -9,10 +9,13 @@ const Home=()=>{
     
      <HomeLayout>
          <div className= "home-container-child">
-         <h3>Welcome to Our Pharmacies</h3>
+        <div className="homehome">
+            <h3>Welcome to Our Pharmacies</h3>
     <h1>We'll Always Make Time </h1>
       <h1>For You </h1>
-   <button><h2> Get Started </h2></button>
+      <button><h2> Get Started </h2></button>
+      </div>
+   
     </div>
      </HomeLayout> 
     
