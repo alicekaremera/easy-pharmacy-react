@@ -1,5 +1,5 @@
 .about-div{
-    height: 430vh;
+    height: 480vh;
     width: 100%;
      background-color: white;  
     padding-top: 3vh;
@@ -33,7 +33,7 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
     background-color:rgba(253, 252, 252, 0.76);
 }
 .what-we-do{
-    height: 90vh;
+    height: 110vh;
     width:50%;
     background: rgb(66,190,250);
     background: radial-gradient(circle, rgba(66,190,250,1) 31%, rgba(2,106,218,0.9864320728291317) 65%);
@@ -73,7 +73,7 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
     background-color:rgba(253, 252, 252, 0.76);
 }
 .what-we-do1{
-    height: 120vh;
+    height: 129vh;
     width:50%;
     background: rgb(66,190,250);
     background: radial-gradient(circle, rgba(66,190,250,1) 31%, rgba(2,106,218,0.9864320728291317) 65%);
@@ -115,7 +115,7 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
     background-color:rgba(253, 252, 252, 0.76);
 }
 .what-we-do2{
-    height: 100vh;
+    height: 120vh;
     width:60%;
     background: rgb(66,190,250);
     background: radial-gradient(circle, rgba(66,190,250,1) 31%, rgba(2,106,218,0.9864320728291317) 65%);
