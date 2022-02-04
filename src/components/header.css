@@ -34,6 +34,7 @@
     height: 68px;
     display: flex;
     margin-left: 30vh;
+    
 }
 .home-bar{
     /* background-color: brown; */
@@ -55,6 +56,17 @@ padding-left:7vh;
 color:#C4C4C4;
 }
 .header a{
+    
+    width: 99%;
+    padding: 10px;
+    font-size:19px;
+    color: white;
+    font-weight: bold;
+    
+    /* height: 100%; */
+}
+
+.header a:hover{
     
     width: 99%;
     padding: 10px;
