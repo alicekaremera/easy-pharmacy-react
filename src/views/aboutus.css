@@ -1,20 +1,24 @@
+*{
+    margin: 0; 
+    padding: 0; 
+} 
 .about-div{
     height: 480vh;
     width: 100%;
-     background-color: white;  
+     background-color: #fafafb;  
     padding-top: 3vh;
-}
+} 
 .about{
     height: 10vh;
     width: 98%;
-    background: rgb(66,190,250);
-background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgba(2,106,218,1) 77%);
+    /* background: rgb(31,39,42); */
+/* background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgba(2,106,218,1) 77%); */
     margin-left: 2vh;
 
 }
 .about h1{
     font-size: 7vh;
-    color: white;
+    color: black;
     font-weight: bold;
     margin-left: 90vh;
 }
@@ -30,31 +34,39 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
 .image-cover{
     width: 100%;
     height: 100%;
-    background-color:rgba(253, 252, 252, 0.76);
+    background-color:rgba(2, 2, 2, 0.315);
 }
 .what-we-do{
-    height: 110vh;
+    height: 119vh;
     width:50%;
-    background: rgb(66,190,250);
-    background: radial-gradient(circle, rgba(66,190,250,1) 31%, rgba(2,106,218,0.9864320728291317) 65%);
-    margin-top: -70vh;
+    /* background: rgb(66,190,250);
+    background: radial-gradient(circle, rgba(66,190,250,1) 31%, rgba(2,106,218,0.9864320728291317) 65%); */
+    margin-top: -85vh;
+    background-color:rgba(255, 255, 255, 0.876);
     margin-left: 40vh;
+    -webkit-box-shadow: 10px 7px 3px 5px  rgba(7, 7, 7, 0.226);; /* to have box shadow * */
+
+    -moz-box-shadow: 10px 7px 3px 5px  rgba(7, 7, 7, 0.226);;
+
+         box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px ; 
+         border-radius: 15px;  
 }
 .what-we-do h1{
     /* margin-right:-10vh;
     padding-right: 70vh;
     padding-left: -330vh; */
     margin-left: 10vh;
+    color: #000;
 }
 .what-we-do h2{
     margin-left: 10vh;
-    color: white;
+    color: black;
 }
 .what-we-do p{
     margin-left: 19vh;
     margin-left: 10vh;
     padding-right: 10vh;
-    color: white;
+    color: black;
 }
 
 .pharmacy2{
@@ -70,32 +82,42 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
 .image-cover1{
     width: 100%;
     height: 100%;
-    background-color:rgba(253, 252, 252, 0.76);
+    background-color:rgba(2, 2, 2, 0.315);
 }
 .what-we-do1{
-    height: 129vh;
+    height: 145vh;
     width:50%;
-    background: rgb(66,190,250);
-    background: radial-gradient(circle, rgba(66,190,250,1) 31%, rgba(2,106,218,0.9864320728291317) 65%);
-    margin-top: -70vh;
-    margin-left: 80vh;
+    /* background: rgb(66,190,250);
+    background: radial-gradient(circle, rgba(66,190,250,1) 31%, rgba(2,106,218,0.9864320728291317) 65%); */
+    margin-top: -85vh;
+    background-color:rgba(255, 255, 255, 0.876);
+    padding-top: -12vh;
+    margin-left: 40vh;
+    -webkit-box-shadow: 10px 7px 3px 5px  rgba(7, 7, 7, 0.226);; /* to have box shadow * */
+
+    -moz-box-shadow: 10px 7px 3px 5px  rgba(7, 7, 7, 0.226);;
+
+         box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px ; 
+         border-radius: 15px;  
+
 }
 .what-we-do1 h1{
     /* margin-right:-10vh;
     padding-right: 70vh;
     padding-left: -330vh; */
     margin-left: 10vh;
+    color: #000;
     
 }
 .what-we-do1 h2{
     margin-left: 10vh;
-    color: white;
+    color: black;
 }
 .what-we-do1 p{
     margin-left: 19vh;
     margin-left: 10vh;
     padding-right: 10vh;
-    color: white;
+    color: black;
 }
 
 
@@ -112,37 +134,45 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
 .image-cover2{
     width: 100%;
     height: 100%;
-    background-color:rgba(253, 252, 252, 0.76);
+    background-color:rgba(2, 2, 2, 0.315);
 }
 .what-we-do2{
-    height: 120vh;
-    width:60%;
-    background: rgb(66,190,250);
-    background: radial-gradient(circle, rgba(66,190,250,1) 31%, rgba(2,106,218,0.9864320728291317) 65%);
+    height: 119vh;
+    width:50%;
+    /* background: rgb(66,190,250);
+    background: radial-gradient(circle, rgba(66,190,250,1) 31%, rgba(2,106,218,0.9864320728291317) 65%); */
     margin-top: -70vh;
+    background-color:rgba(255, 255, 255, 0.876);
     margin-left: 40vh;
+    -webkit-box-shadow: 10px 7px 3px 5px  rgba(7, 7, 7, 0.226);; /* to have box shadow * */
+
+    -moz-box-shadow: 10px 7px 3px 5px  rgba(7, 7, 7, 0.226);;
+
+         box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px ; 
+         border-radius: 15px;  
 }
 .what-we-do2 h1{
     /* margin-right:-10vh;
     padding-right: 70vh;
     padding-left: -330vh; */
     margin-left: 10vh;
+    color: #000;
     
 }
 .what-we-do2 h2{
     margin-left: 10vh;
-    color: white;
+    color: black;
 }
 .what-we-do2 p{
     margin-left: 19vh;
     margin-left: 10vh;
     padding-right: 10vh;
-    color: white;
+    color: black;
 }
 .what-we-do2 h3{
-    margin-left: -131vh;
-    margin-top: -30vh;
-    color: white;
+    margin-left: -140vh;
+    margin-top: -35vh;
+    color: black;
     font-weight: bold;
-    font-size: 5vh;
+    font-size: 2.5vh;
 }

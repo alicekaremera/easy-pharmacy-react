@@ -1,34 +1,43 @@
 .login-pg{
-    height: 100vh;
-    /* background: rgb(2,0,36); */
-    background: linear-gradient(to bottom, #260894d0, #16dbe2ef);
+    height: 110vh;
+    background: #fafafb; 
+    -webkit-box-shadow: 0 10px 6px -6px  black;; /* to have box shadow * */
+
+    -moz-box-shadow: 0 10px 6px -6px  black;;
+
+         box-shadow: 0 10px 6px -6px black ; 
+    /* margin-top: 52vh; */
 }
   .login-form {
 
       float: right;
-      background: linear-gradient(to bottom, #260894d0, #16dbe2ef);
+      background-color:#fafafb;
       /* background-color: rgb(66,190,250); */
       width: 25%;
       height: 40vh;
       text-align: center;
-      margin-top: 230px;
+      margin-top: 70px;
       margin-right: 150px;
   }
+   .login-form h4{
+       font-size: 40px;
+   }
+  
   .login-pg button{
       background-color:rgb(255, 255, 255) ;
       width: 40%;
       height: 50px;
       color: black;
       float: left;
-      margin-left: 100px;
+      margin-left: 130px;
       
   }
   .login-pic{
-      background-image: url('../assets/logo2.jpg');
+      background-image: url('../assets/login.jpg');
       /* background-color: chartreuse; */
       /* float: left; */
       width: 50%;
-      height: 100vh;
+      height: 110vh;
       background-size: cover;
   }
   .login-form-forgot{

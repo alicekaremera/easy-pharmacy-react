@@ -4,7 +4,7 @@ import HomeLayout from "../components/homeLayout";
 const AboutUs=()=>{
     return(
         <HomeLayout>
-            <div className="about-div">
+            <div className="about-div"> 
                 <div className="about">
                     <h1>ABOUT</h1>
                 </div>
@@ -64,7 +64,7 @@ can i believe them?</p>
                 </div>
 
 
-            </div>
+             </div> 
         </HomeLayout>
     )
 }

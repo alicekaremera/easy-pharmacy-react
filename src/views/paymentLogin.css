@@ -7,6 +7,7 @@
     /* background-image: url('../assets/HomePicture.jpg') ;
     background-size: cover; 
     background-attachment: fixed;  */
+    margin-bottom: -5vh;
 }
 .payment-div h1{
   font-size:4vh;
@@ -14,20 +15,26 @@
  padding-right: 12vh;
 }
  .photo-div{
-    width:70%;
+    width:50%;
     height:90.5vh;
-    background: rgba(0, 22, 32, 0.637);
+    background: rgba(0, 22, 32, 0.397);
     background-image: url('../assets/payment.png') ;
     background-size: cover;
     /* float: left; */
     /* padding-top:-72vh ; */
 
 }
+.cover{
+    width:100%;
+    height:90.5vh;
+    background: rgba(0, 22, 32, 0.089);
+}
 .pay-div {
-    background: rgb(66,190,250);
-    background: radial-gradient(circle, rgba(66,190,250,1) 25%, rgba(2,106,218,1) 75%);
-width: 30%;
-height: 91.5vh;
+    /* background: rgb(66,190,250);
+    background: radial-gradient(circle, rgba(66,190,250,1) 25%, rgba(2,106,218,1) 75%); */
+width: 50%;
+background-color:#fafafb;
+height: 90.5vh;
  /* margin-top: 1vh;  */
 /* margin-left:15vh; */
 /* float: right; */
@@ -35,7 +42,7 @@ padding: 25vh;
 }
 .pay-div input {
    margin-top:-32vh;
-    margin-right: 8px;
+    margin-right: 67px;
     width: 31vh;
   }
   .pay-div Select{
@@ -48,6 +55,8 @@ padding: 25vh;
       font-size: 2.5vh;
       width: 32vh;
       margin-top: -10vh;
+      color: black;
+      margin-left:19vh ;
      
   }
   .info-pay{
@@ -55,6 +64,7 @@ padding: 25vh;
       height: 30vh;
       /* background-color: red; */
       margin-top:-7vh;
+      margin-left: 19vh;
   }
   .Button-div{
       width:70%;
@@ -67,7 +77,12 @@ padding: 25vh;
   .Button-div Button{
       width:25vh;
       height:5vh;
-     margin-left:162vh;
+     margin-left:180vh;
+     margin-top:20vh;
+     color:rgba(31,39,42);
+  }
+  .Button-div Button:hover{
+      color:white
   }
 
 

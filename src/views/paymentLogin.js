@@ -8,7 +8,9 @@ const Payment = () => {
     return (
         <HomeLayout>
             <div className="payment-div">
-                < div className="photo-div"></div>
+                < div className="photo-div">
+                    <div className="cover"></div>
+                </div>
                 <div className="pay-div">
                     <p>ENTER YOUR PAYMENT DETAILS</p>
                     <br/>
@@ -31,7 +33,7 @@ const Payment = () => {
                     <br/>
                     <br/>
                     <div className="Button-div">
-                    <Button type="primary">Submit</Button>
+                    <Button type="primary" >Submit</Button>
                     </div>
                     </div>
                 </div>

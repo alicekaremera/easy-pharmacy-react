@@ -24,11 +24,11 @@ const Drugdata=({data})=>{
             </div>
 
             
-            <div className="available">
+            <div className="available" style={{marginLeft:"92px"}}>
                 <h1>{data.available}</h1>
             </div>
 
-            <div className="action" style={{ marginLeft: "1070px", padding:"5px"}}>
+            <div className="action" style={{ marginLeft: "1070px", padding:"2px", width:"12px"}}>
             <a href="/order" style={{ textDecoration: "none"}}><button>{data.action[0]}</button></a>
     <button>{data.action[1]}</button>
 </div>
