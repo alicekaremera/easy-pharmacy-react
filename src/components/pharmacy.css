@@ -4,13 +4,14 @@
     background-color: rgb(242, 246, 248);
     background-size: cover ;
     background-attachment: fixed;
+    margin-top: -5vh;
     /* margin: 80px; */
     
 
 }
 
 .pharmacy-container h1{
-    color: rgb(66,190,250);
+    color: rgb(31,39,42);
     margin: 30px;
     margin-bottom:0px;
 } 
@@ -20,8 +21,8 @@
     display:flex;
 margin-top: 30px;
     border-bottom: 1px solid rgb(78, 34, 9);
-    background: rgb(66,190,250);
-background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgba(2,106,218,1) 77%);
+    background: rgb(31,39,42);
+/* background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgba(2,106,218,1) 77%); */
 
     /* align-items: center; */
 
@@ -35,9 +36,10 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
 
     padding: 30px;
 
-    color:black;
+    color:white;
 
-    font-size:25px;
+    font-size:18px;
+    font-weight: bold;
 
  
 
@@ -84,9 +86,15 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
     margin-left: 540px;
 
     /* float: right; */
+   
 
     
 
+}
+.phone h1{
+    font-size: 18px;
+    padding-top: 82px;
+    margin-left:-15px;
 }
 .read{
 
@@ -97,12 +105,16 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
     
 
 }
-
+.read h1{
+    font-size: 18px;
+    padding-top: -19vh;
+    margin-right:4px;
+}
 .ourpharmacy p{
 
     font-size:18px;
 
-    color: rgba(5, 5, 5, 0.678);
+    color: rgba(31,39,42);
 
     padding:10px;
 
@@ -111,7 +123,7 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
 .ourpharmacy h3{
 
     font-size:18px;
-    color: rgba(5, 5, 5, 0.678);
+    color: rgba(31,39,42);
 
     font-weight: bold;
 
@@ -138,9 +150,9 @@ background: radial-gradient(circle, rgba(66,190,250,0.6895133053221288) 45%, rgb
 
 .ourpharmacy h2{
 
-   color:rgb(66,190,250);
+   color:#1F272A;
 
-   font-size:26px;
+   font-size:18px;
 
    font-weight: bold;
    margin-bottom:0px;

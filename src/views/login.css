@@ -2,11 +2,12 @@
     height: 100vh;
     /* background: rgb(2,0,36); */
     background: linear-gradient(to bottom, #260894d0, #16dbe2ef);
+    display: flex;
 }
   .login-form {
 
       float: right;
-      background: linear-gradient(to bottom, #260894d0, #16dbe2ef);
+      background-color:rgba(2, 106, 218, 0.685);
       /* background-color: rgb(66,190,250); */
       width: 25%;
       height: 40vh;
@@ -24,7 +25,7 @@
       
   }
   .login-pic{
-      background-image: url('../assets/logo2.jpg');
+      background-image: url('../assets/login.jpg');
       /* background-color: chartreuse; */
       /* float: left; */
       width: 50%;
@@ -35,4 +36,13 @@
       text-decoration: none;
       color: rgb(2, 2, 59);
   }
+  .hd-name h2{
+    background:none;
+    height: 70px;
+    width: 310px;
+    margin-left: 15%;
+    margin-top: 2%;
+    color: white;
+    
+}
   

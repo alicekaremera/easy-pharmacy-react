@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import './login.css';
 import HomeLayout from "../components/homeLayout";
@@ -14,6 +13,7 @@ const NormalLoginForm = () => {
     return (
         <HomeLayout>
             <div className="login-pg">
+            <div className="hd-name"> <h2> Register here!! </h2> </div> 
                 <Form
                     name="normal_login"
                     className="login-form"
@@ -42,7 +42,7 @@ const NormalLoginForm = () => {
                             },
                         ]}
                     >
-                        <Input
+                        <Input.Password
 
                             prefix={<LockOutlined className="site-form-item-icon" />}
                             type="password"
@@ -54,12 +54,12 @@ const NormalLoginForm = () => {
                             <Checkbox>Remember me</Checkbox>
                         </Form.Item>
 
-                        <a className="login-form-forgot" href="">
+                        <a className="login-form-forgot" href="#">
                             Forgot password</a>
 
                             <br /> <br />
 
-                            Or <a href="" style={{color:"rgb(2, 2, 59)", textDecoration:"none"}}>register now!</a>
+                            Or <a href="./signup" style={{color:"rgb(2, 2, 59)", textDecoration:"none"}}>register now!</a>
                         <br /> 
                         <Button type="primary" htmlType="submit" >Log In </Button>
                         <br /> <br />
