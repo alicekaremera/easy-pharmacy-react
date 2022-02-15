@@ -13,7 +13,6 @@ const NormalLoginForm = () => {
     return (
         <HomeLayout>
             <div className="login-pg">
-            <div className="hd-name"> <h2> Register here!! </h2> </div> 
                 <Form
                     name="normal_login"
                     className="login-form"
@@ -31,6 +30,7 @@ const NormalLoginForm = () => {
                             },
                         ]}
                     >
+                        <h4>LOG IN</h4>
                         <Input prefix={<MailFilled className="site-form-item-icon" />} placeholder="email or phone number" />
                     </Form.Item>
                     <Form.Item
@@ -53,9 +53,6 @@ const NormalLoginForm = () => {
                         <Form.Item name="remember" valuePropName="checked" noStyle>
                             <Checkbox>Remember me</Checkbox>
                         </Form.Item>
-
-                        <a className="login-form-forgot" href="#">
-                            Forgot password</a>
 
                             <br /> <br />
 
