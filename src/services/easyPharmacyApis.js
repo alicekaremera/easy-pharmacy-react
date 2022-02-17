@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const Base_URL = "http://localhost:4040";
+const Base_URL = "http://localhost:5050";
 
 var config = {
   headers: {

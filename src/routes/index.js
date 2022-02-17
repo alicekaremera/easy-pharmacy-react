@@ -10,7 +10,7 @@ import Order from '../views/order';
 import SignUp from "../views/signup";
 
 import { Routes , Route,useLocation } from "react-router-dom"; 
-import AboutUs from "../views/aboutus";
+import AboutUs from "../views/Aboutus";
 import Payment from "../views/paymentLogin";
 
 
@@ -40,7 +40,7 @@ const Index = () => {
                 </Route>
 
                 <Route exact path='/signup' element={<SignUp />}></Route >
-                <Route exact path='/about' element={<AboutUs />}></Route>
+                <Route exact path='/Aboutus' element={<AboutUs />}></Route>
                 <Route exact path='/payment' element={<Payment />}></Route>
                
             </Routes>
