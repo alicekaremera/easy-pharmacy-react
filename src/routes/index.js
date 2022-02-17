@@ -10,7 +10,7 @@ import Order from '../views/order';
 import SignUp from "../views/signup";
 
 import { Routes , Route,useLocation } from "react-router-dom"; 
-import AboutUs from "../views/aboutus";
+import AboutUs from "../views/aboutUs";
 import Payment from "../views/paymentLogin";
 
 
