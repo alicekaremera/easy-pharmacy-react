@@ -20,6 +20,9 @@ import Layout from "../components/layout/Layout";
 import Dashboard from "../pages/Dashboard";
 import Customers from "../pages/Customers";
 import Medecines from "../pages/Medecines";
+import UserDashboard from "../pages/UserDashboard";
+import OrderDash from "../pages/Order";
+import UserOrder from "../pages/UserOrder";
 
 const Index = () => {
   
@@ -59,6 +62,9 @@ const Index = () => {
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/customers" element={<Customers />} />
       <Route path="/medecines" element={<Medecines />} />
+      <Route path="/userdash" element={<UserDashboard />} />
+      <Route path="/order" element={<OrderDash />} />
+      <Route path="/userorder" element={<UserOrder />} />
     </Routes>
   );
 };

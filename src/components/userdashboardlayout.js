@@ -14,7 +14,7 @@ import {
 
 const { Header, Sider, Content } = Layout;
 
-const Dashlayout=({children,key})=>{
+const UserDashlayout=({children,key})=>{
 
 const[collapsed, setCollapsed] = useState(false);
     const toggle=()=>{
@@ -26,19 +26,19 @@ const[collapsed, setCollapsed] = useState(false);
           <div className="logo" />
           <Menu theme="dark" mode="inline" defaultSelectedKeys={!key?1:key}>
             <Menu.Item key="1" icon={<UserOutlined />}>
-            <Link to="/dashboard">  User Management </Link>
+            <Link to="/userdash">  User Management </Link>
             </Menu.Item>
-            <Menu.Item key="2" icon={<VideoCameraOutlined />}>
+            {/* <Menu.Item key="2" icon={<VideoCameraOutlined />}>
             <Link to="/medecines">  Medicine </Link>
+            </Menu.Item> */}
+            <Menu.Item key="2" icon={<VideoCameraOutlined />}>
+            <Link to="/userorder">  Orders </Link>
             </Menu.Item>
-            <Menu.Item key="3" icon={<VideoCameraOutlined />}>
-            <Link to="/order">  Orders </Link>
-            </Menu.Item>
-            <Menu.Item key="4" icon={<UploadOutlined />} >
-             <Link to="/customers"> Customers </Link>
+            <Menu.Item key="3" icon={<UploadOutlined />} >
+             <Link to="#"> Setting </Link>
             </Menu.Item>
 
-            <Menu.Item key="5" icon={<UploadOutlined />} onClick={()=>localStorage.removeItem("userLogedIn",false)}>
+            <Menu.Item key="4" icon={<UploadOutlined />} onClick={()=>localStorage.removeItem("userLogedIn",false)}>
              <Link to="/"> Logout </Link>
             </Menu.Item>
           </Menu>
@@ -64,4 +64,4 @@ const[collapsed, setCollapsed] = useState(false);
       </Layout>
     )
 }
-export default Dashlayout;
+export default UserDashlayout;
