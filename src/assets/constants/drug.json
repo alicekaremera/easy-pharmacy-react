@@ -1,5 +1,6 @@
 [
     {
+      "id":1,
       "name": " KININI",
       "description": " Laborum irure deserunt laborum reprehenderit.",
       "expiredDate": "15 August 2010",
@@ -9,6 +10,7 @@
     },
 
     {
+      "id":2,
         "name": " Parastamol",
         "description": " Laborum irure deserunt laborum reprehenderit.",
         "expiredDate": "15 August 2010",
@@ -18,6 +20,7 @@
       },
 
       {
+        "id":3,
         "name": " Chloropheneramine",
         "description": " Laborum irure deserunt laborum reprehenderit.",
         "expiredDate": "15 August 2010",
@@ -27,6 +30,7 @@
       },
 
       {
+        "id":4,
         "name": " FEBRILEX",
         "description": " Laborum irure deserunt laborum reprehenderit.",
         "expiredDate": " August 2010",
