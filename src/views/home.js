@@ -16,7 +16,7 @@ const Home=()=>{
             <h3>Welcome to Our Pharmacies</h3>
     <h1>We'll Always Make Time </h1>
       <h1>For You </h1>
-      <button><h2> Get Started </h2></button>
+      <a href="/signup"> <button><h2> Get Started </h2></button></a>
       </div>
    
     </div>
