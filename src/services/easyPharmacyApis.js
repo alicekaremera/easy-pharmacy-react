@@ -23,20 +23,7 @@ class Application {
             return error.response;
         }
     }
-  async getAllUsers() {
-    try {
-      const response = await axios.get(
-        Base_URL + "/user/all",
-        config
-      );
-
-      //   console.log(response);
-      return response;
-    } catch (error) {
-      console.log(error);
-    }
-  }
-
+  
   async getAllUsers() {
     try {
       const response = await axios.get(
