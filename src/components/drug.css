@@ -49,8 +49,6 @@
 
 .ourdrug{
 
-    padding-top: 30px;
-
     min-height: 260px;
 
      -webkit-box-shadow: 0 10px 6px -6px #777; /* to have box shadow * */
@@ -65,7 +63,39 @@
 
 .drugname{
 
-    margin: 30px;
+    margin: 50px;
+
+    float: left;
+
+    width: 200px;
+
+    height: 220px;
+
+    border-radius: 9px;
+
+    padding-right: 5px;
+
+}
+.expired date{
+
+    margin-right: 100px;
+
+    margin-top: 300px;
+
+    /* float: left; */
+
+    width: 200px;
+
+    height: 220px;
+
+    border-radius: 9px;
+
+    /* padding-right: 5px; */
+
+}
+.description{
+
+    margin-left: 180px;
 
     float: left;
 
@@ -83,37 +113,30 @@
 
 .price{
 
-    margin-left: 350px;
-    /* margin-top: 92px; */
+    font-size: 100px;
+    margin-left: 200px; 
 
-    /* float: right; */
-    /* padding-top: 99px; */
-    
+    /* margin-right: 300px; */
 
 }
-.price h1{
-    font-size: 20px;
-  
-}
+
 .available{
    
 
-    margin-right: 430px;
+    margin-right: 300px;
 
     float: right;
-
-    
 
 }
 .available h1{
     font-size: 20px;
+
+    /* margin-left: 300px; */
+
 }
 
 .action button{
 
-   
-    
-    
     width: 15vh;
     height: 6vh;
     /* background-color: rgb(66,190,250); */
@@ -128,7 +151,7 @@
     font-size: 16px;
     margin: 4px 34px 0px;
     cursor: pointer;
-
+    margin-left: 120px; 
     
 
 }

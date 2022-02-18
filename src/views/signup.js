@@ -177,9 +177,10 @@ const Signup = () => {
                   span: 16,
                 }}
               >
-                <Button type="primary" htmlType="submit" style={{ width: "160px", height: "40px", marginLeft: "130px", marginTop: "59px" }}>
+              <a href="./login" > <Button type="primary" htmlType="submit" style={{ width: "160px", height: "40px", marginLeft: "130px", marginTop: "59px" }}>  
                   Submit
                 </Button>
+                </a>
               </Form.Item>
             </Form>
 

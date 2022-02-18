@@ -12,12 +12,20 @@ const Pharmacydata=({data})=>{
 
             <a href="/drug" style={{ textDecoration: "none"}}> <h2>{data.name}</h2></a>
 
-            <p>Address: {data.address}
+            {/* <p>Address: {data.address}
 
                  <br/>
 
                  <h3>{data.street}</h3>
-            </p>
+            </p> */}
+            </div>
+
+            <div className="address">
+                <h1>{data.address}</h1>
+            </div>
+
+            <div className="street">
+                <h1>{data.street}</h1>
             </div>
 
             <div className="phone">

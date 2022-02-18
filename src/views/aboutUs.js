@@ -68,4 +68,4 @@ can i believe them?</p>
         </HomeLayout>
     )
 }
-export default AboutUs
+export default AboutUs;
