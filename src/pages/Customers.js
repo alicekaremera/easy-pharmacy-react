@@ -1,17 +1,28 @@
-import React from "react";
+import React,{ useState, useEffect }  from "react";
 
 import Table from "../components/table/Table";
 import DashLayout from "../components/dashboardlayout";
 import customerList from "../assets/JsonData/customers-list.json";
+import EasyApis from "../services/easyPharmacy";
 
-const customerTableHead = [
+const AllUsers = () => {
+  const [allUsersData, setAllUsersData] = useState([]);
+
+  useEffect(() => {
+    EasyApis.getAllUsers().then((res) => {
+      console.log(res);
+      setAllUsersData(res.data.data);
+    });
+  }, []);
+
+const userTableHead = [
   "",
-  "name",
+  "firstname",
   "email",
   "phone",
-  "total orders",
-  "total spend",
-  "location",
+  "role",
+  "gender",
+  "address",
 ];
 
 const renderHead = (item, index) => <th key={index}>{item}</th>;
@@ -19,29 +30,29 @@ const renderHead = (item, index) => <th key={index}>{item}</th>;
 const renderBody = (item, index) => (
   <tr key={index}>
     <td>{item.id}</td>
-    <td>{item.name}</td>
+    <td>{item.firstname}</td>
     <td>{item.email}</td>
     <td>{item.phone}</td>
-    <td>{item.total_orders}</td>
-    <td>{item.total_spend}</td>
-    <td>{item.location}</td>
+    <td>{item.role}</td>
+    <td>{item.gender}</td>
+    <td>{item.address}</td>
   </tr>
 );
 
-const Customers = () => {
+// const Customers = () => {
   return (
     <DashLayout key="3">
       <div>
-        <h2 className="page-header">customers</h2>
+        <h2 className="page-header">Users</h2>
         <div className="row">
           <div className="col-12">
             <div className="card">
               <div className="card__body">
                 <Table
                   limit="10"
-                  headData={customerTableHead}
+                  headData={userTableHead}
                   renderHead={(item, index) => renderHead(item, index)}
-                  bodyData={customerList}
+                  bodyData={allUsersData}
                   renderBody={(item, index) => renderBody(item, index)}
                 />
               </div>
@@ -53,4 +64,4 @@ const Customers = () => {
   );
 };
 
-export default Customers;
+export default AllUsers;

@@ -8,7 +8,7 @@ const AllOrders = () => {
   const [allOrdersData, setAllOrdersData] = useState([]);
 
   useEffect(() => {
-    EasyApis.getAllOrderByUserId().then((res) => {
+    EasyApis.getAllOrders().then((res) => {
       console.log(res);
       setAllOrdersData(res.data.data);
     });
