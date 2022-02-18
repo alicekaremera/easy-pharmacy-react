@@ -31,7 +31,7 @@ const NormalLoginForm = () => {
                         ]}
                     >
                         <h4>LOG IN</h4>
-                        <Input prefix={<MailFilled className="site-form-item-icon" />} placeholder="email or phone number" />
+                        <Input prefix={<MailFilled className="site-form-item-icon" />} placeholder="email or phone number" type="email" />
                     </Form.Item>
                     <Form.Item
                         name="password"
@@ -58,7 +58,7 @@ const NormalLoginForm = () => {
 
                             Or <a href="./signup" style={{color:"rgb(2, 2, 59)", textDecoration:"none"}}>register now!</a>
                         <br /> 
-                        <Button type="primary" htmlType="submit" >Log In </Button>
+                       <a href="./pharmacies"> <Button type="primary" htmlType="submit" >Log In </Button> </a>
                         <br /> <br />
                         
                     </Form.Item>

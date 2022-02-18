@@ -10,13 +10,21 @@ const Drugdata=({data})=>{
 
             <h2>{data.name}</h2>
 
-            <p ><div style={{ fontWeight: "bold"}}>Expired date:</div> {data.expiredDate}
+            {/* <p ><div style={{ fontWeight: "bold"}}>Expired date:</div> {data.expiredDate}
 
                  <br/>
 
                  <h3><div style={{ fontWeight: "bold"}}>Description:</div>{data.description}</h3>
-            </p>
+            </p> */}
 
+            </div>
+
+            <div className="expired date">
+                <h1>{data.expiredDate}</h1>
+            </div>
+
+            <div className="description">
+                <h1>{data.description}</h1>
             </div>
 
             <div className="price">
@@ -29,8 +37,8 @@ const Drugdata=({data})=>{
             </div>
 
             <div className="action" style={{ marginLeft: "1070px", padding:"2px", width:"12px"}}>
-            <a href="/order" style={{ textDecoration: "none"}}><button>{data.action[0]}</button></a>
-    <button>{data.action[1]}</button>
+            <a href="/order" style={{ textDecoration: "none"}}>
+                <button>{data.action[0]}</button></a>
 </div>
 
         </div>
