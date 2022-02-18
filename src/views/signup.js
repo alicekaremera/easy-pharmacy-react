@@ -404,7 +404,7 @@ const Signup = () => {
                 >
                   <Select
                     style={{
-                      width: "250px",
+                      width: "251px",
                       height: "40px",
                       marginLeft: "80px",
                     }}
