@@ -4,9 +4,56 @@ import './login.css';
 import HomeLayout from "../components/homeLayout";
 import { Form, Input, Button, Checkbox } from 'antd';
 import { MailFilled, LockOutlined } from '@ant-design/icons';
+import EasyApisService from "../services/easyPharmacyApis"
+import { notification } from 'antd';
+
+
 
 const NormalLoginForm = () => {
     const onFinish = (values) => {
+
+
+        console.log(values)
+        EasyApisService.signinAccount(values).then((res)=>{
+          if(!res){
+            return notification.error({
+              message:"You need to have account before login",
+            });
+          }
+          if(res.status===200){
+            console.log(res.data.data);
+            if(res.data.data.role==="admin"){
+              localStorage.setItem("userLogedIn", true);
+         
+            }
+            else if(res.data.data.role==="user"){
+    
+        localStorage.setItem("userLogedIn", true);
+      
+            } 
+            
+            if(res.data.data.role==="buyer"){
+    
+              localStorage.setItem("userLogedIn", true);
+          
+        
+                  }  
+          }
+    
+          
+        }
+    
+        )
+    
+    
+
+
+
+
+
+
+
+
         console.log('Received values of form: ', values);
     };
 

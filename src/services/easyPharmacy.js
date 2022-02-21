@@ -10,21 +10,7 @@ var config ={
 };
 
 class Application{
-    async getAllDrugs(){
-        try{
-            const response = await axios.get(
-                EASY_PHARMACY_APIS_URL + "/drug/all",
-                config 
-
-            );
-
-            // console.log(response);
-            return response;
-
-        } catch (error){
-            console.log(error);
-        }
-    }
+   
 
     async getAllUsers(){
         try{
@@ -39,18 +25,7 @@ class Application{
         }
     }
 
-    async getAllOrders(){
-        try{
-            const response = await axios.get(
-                EASY_PHARMACY_APIS_URL + "/order/all", config
-
-            );
-            return response;
-
-        } catch(error){
-            console.log(error);
-        }
-    }
+    
 
     async getAllOrderByUserId(){
         try{
