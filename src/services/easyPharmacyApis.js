@@ -3,7 +3,7 @@ import store from "store"
 
 
 
-const Base_URL = "http://localhost:4040";
+const Base_URL = "https://easy-pharmacy-rwanda.herokuapp.com/";
 
 
 var config = {
