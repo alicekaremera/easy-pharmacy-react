@@ -3,8 +3,8 @@ import Home from "../views/home";
 import NormalLoginForm from "../views/login";
 
 import Pharmacy from "../views/pharmacy";
-import Drug from "../views/drug";
-import Order from "../views/order";
+// import Drug from "../views/drug";
+// import Order from "../views/order";
 
 import SignUp from "../views/signup";
 

@@ -33,7 +33,7 @@ class Application {
     async signinAccount(data) {
       try {
         const response = await axios.post(
-          AGRICULTURE_APIS_URL + "/user/login",
+          Base_URL + "/user/login",
           data,
           config
         );
@@ -42,6 +42,21 @@ class Application {
         console.log(error);
       }
     }
+
+
+
+    async getAllOrderByUserId(){
+      try{
+          const response = await axios.get(
+              Base_URL + "/order/one/:id", config
+
+          );
+          return response;
+
+      } catch(error){
+          console.log(error);
+      }
+  }
 
     async getAllDrugs(){
       try{
