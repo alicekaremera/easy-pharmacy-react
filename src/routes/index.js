@@ -9,11 +9,10 @@ import Order from "../views/order";
 import SignUp from "../views/signup";
 
 import { Routes , Route,useLocation } from "react-router-dom"; 
-import AboutUs from "../views/aboutus";
-import Payment from "../views/paymentLogin";
+import AboutUs from "../views/aboutUs";
 
-// import Dashlayout from "../components/dashboardlayout";
-// import AllPharmacy from "../views/dashboard/medecine";
+
+
 
 import Layout from "../components/layout/Layout";
 
@@ -30,32 +29,19 @@ const Index = () => {
       <Routes>
         <Route exact path="/login" element={<NormalLoginForm />}></Route>
         <Route exact path="/" element={<Home />}></Route>
-        {/* <Route exact path ='/' component={Home}></Route> */}
+        
+        
         <Route element={<Pharmacy />} path="/pharmacy" />
 
         <Route exact path="/signup" element={<SignUp />}></Route>
         <Route exact path="/aboutUs" element={<AboutUs />}></Route>
 
-        {/* <Route element={<Dashlayout/>} path="/dash">
-</Route> */}
-
-        {/* <Route element={<AllPharmacy/>} path="/dash/medecine">
-</Route> */}
-
-        {/* <Route component={AllPharmacy} path="/dash/medecine">
-</Route> */}
+      
 
         <Route exact path="/signup" element={<SignUp />}></Route>
         <Route exact path="/about" element={<AboutUs />}></Route>
 
-        {/* <Route element={<Dashlayout/>} path="/dash">
-</Route> */}
-
-        {/* <Route element={<AllPharmacy/>} path="/dash/medecine">
-</Route> */}
-
-        {/* <Route component={AllPharmacy} path="/dash/medecine">
-</Route> */}
+        
 
         <Route element={<Layout />} path="/layout"></Route>
 
