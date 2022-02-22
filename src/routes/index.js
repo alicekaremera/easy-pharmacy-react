@@ -9,7 +9,7 @@ import Pharmacy from "../views/pharmacy";
 import SignUp from "../views/signup";
 
 import { Routes , Route,useLocation } from "react-router-dom"; 
-import AboutUs from "../views/aboutUs";
+import AboutUs from "../views/aboutus";
 
 
 

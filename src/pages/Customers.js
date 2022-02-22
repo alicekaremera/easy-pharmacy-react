@@ -2,7 +2,7 @@ import React,{ useState, useEffect }  from "react";
 
 import Table from "../components/table/Table";
 import DashLayout from "../components/dashboardlayout";
-import customerList from "../assets/JsonData/customers-list.json";
+
 import EasyApis from "../services/easyPharmacy";
 
 const AllUsers = () => {
