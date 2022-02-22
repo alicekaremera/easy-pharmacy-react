@@ -3,7 +3,7 @@ import logo from "../assets/logo.jpg"
 import "./header.css"
 const Header = () => {
         return (<div className="header">
-                <img src={logo}  style={{width:"20%" ,}}/>
+                <img src={logo}  style={{width:"20%" }}/>
                 <div className="navbar-right">
                         <div className="home-bar">
                                 <a href="../">Home</a>
