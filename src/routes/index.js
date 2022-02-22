@@ -10,10 +10,9 @@ import SignUp from "../views/signup";
 
 import { Routes , Route,useLocation } from "react-router-dom"; 
 import AboutUs from "../views/aboutus";
-import Payment from "../views/paymentLogin";
 
-// import Dashlayout from "../components/dashboardlayout";
-// import AllPharmacy from "../views/dashboard/medecine";
+
+
 
 import Layout from "../components/layout/Layout";
 
