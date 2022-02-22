@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 
 import Table from "../components/table/Table";
 import DashLayout from "../components/dashboardlayout";
-import medecineList from "../assets/constants/drug.json";
 
 import EasyApis from "../services/easyPharmacy";
 
