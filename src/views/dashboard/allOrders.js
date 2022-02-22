@@ -1,5 +1,5 @@
 import React from "react"
-import { Table, Tag, Space } from 'antd';
+import { Table, Space } from 'antd';
 import AllAvailableData from "../../assets/constants/drug.json"
 import { EditOutlined ,EyeOutlined ,DeleteOutlined } from '@ant-design/icons';
 import AllDataUsers from "../../assets/constants/info.json"

@@ -1,5 +1,5 @@
 import React from "react";
-import DashLayout from "../../components/dashboardlayout.js";
+// import DashLayout from "../../components/dashboardlayout.js";
 import {Form,Input,DatePicker,Button,Space,InputNumber} from "antd";
 const NewOrder =()=>{
     const onFinish=(values)=>{
