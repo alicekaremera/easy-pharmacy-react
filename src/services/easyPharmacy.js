@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const EASY_PHARMACY_APIS_URL = "https://easy-pharmacy-rwanda.herokuapp.com/";
+const EASY_PHARMACY_APIS_URL = "https://easy-pharmacy.herokuapp.com/";
 
 var config ={
     headers:{
