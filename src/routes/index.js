@@ -3,7 +3,7 @@ import Home from "../views/home";
 import NormalLoginForm from "../views/login";
 
 import Pharmacy from "../views/pharmacy";
-// import Drug from "../views/drug";
+import Drug from "../views/drug";
 // import Order from "../views/order";
 
 import SignUp from "../views/signup";
@@ -46,6 +46,7 @@ const Index = () => {
         <Route element={<Layout />} path="/layout"></Route>
 
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/drug" element={<Drug />} />
       <Route path="/customers" element={<Customers />} />
       <Route path="/medecines" element={<Medecines />} />
       <Route path="/userdash" element={<UserDashboard />} />
