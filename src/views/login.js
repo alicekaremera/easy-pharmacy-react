@@ -68,6 +68,8 @@ const NormalLoginForm = () => {
                     }}
                     onFinish={onFinish}
                 >
+                        
+                        <h4>LOG IN</h4>
                     <Form.Item
                         name="email"
                         rules={[
@@ -77,7 +79,6 @@ const NormalLoginForm = () => {
                             },
                         ]}
                     >
-                        <h4>LOG IN</h4>
                         <Input prefix={<MailFilled className="site-form-item-icon" />} placeholder="email or phone number" type="email" />
                     </Form.Item>
                     <Form.Item
